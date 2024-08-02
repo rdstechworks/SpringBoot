@@ -9,6 +9,6 @@ public class RestService {
 	@GetMapping("/")
 	public String start() {
 		
-		return "Hello!! This is Rest service example";
+		return "Hello!! This is Rest service example. Will see everything including retry operations";
 	}
 }
